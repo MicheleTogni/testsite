@@ -1,0 +1,23 @@
+.transizione-bianco-container {
+  display: flex;
+  position: relative;
+}
+.transizione-bianco-transizione-bianco {
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+.transizione-bianco-root-class-name {
+  top: auto;
+  left: auto;
+  right: 0px;
+  bottom: -1px;
+  position: absolute;
+}
+.transizione-bianco-root-class-name1 {
+  top: auto;
+  left: auto;
+  right: 0px;
+  bottom: -1px;
+  position: absolute;
+}

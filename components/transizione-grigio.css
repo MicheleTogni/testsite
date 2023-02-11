@@ -1,0 +1,25 @@
+.transizione-grigio-container {
+  display: flex;
+  position: relative;
+}
+.transizione-grigio-transizione-grigio {
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+.transizione-grigio-root-class-name {
+  top: auto;
+  left: auto;
+  right: 0px;
+  bottom: -1px;
+  position: absolute;
+}
+
+@media(max-width: 1600px) {
+  .transizione-grigio-root-class-name1 {
+    flex: end;
+    left: 0px;
+    bottom: -1px;
+    position: absolute;
+  }
+}

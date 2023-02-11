@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>OnConf (Template 8)</title>
-    <meta property="og:title" content="OnConf (Template 8)" />
+    <title>AIMSite</title>
+    <meta property="og:title" content="AIMSite" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -12,1641 +12,631 @@
     </style>
     <style data-tag="default-style-sheet">
       html {
-        font-family: Source Sans Pro;
-        font-size: 16px;
+        font-family: Roboto Condensed;
+        font-size: 1.12rem;
       }
 
       body {
-        font-weight: 400;
+        font-weight: 300;
         font-style:normal;
         text-decoration: none;
         text-transform: none;
         letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
+        line-height: 1.75;
+        color: var(--dl-color-gray-900);
         background-color: var(--dl-color-gray-white);
 
       }
     </style>
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Squada+One:wght@400&amp;display=swap"
       data-tag="font"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
     <link rel="stylesheet" href="./style.css" />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: true });
-    </script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: true });
-    </script>
   </head>
   <body>
     <div>
       <link href="./home.css" rel="stylesheet" />
-      <script
-        type="text/javascript"
-        src="https://unpkg.com/dangerous-html@0.1.11/dist/default/lib.umd.js"
-      ></script>
 
       <div class="home-container">
-        <section class="home-hero">
-          <div class="home-background">
-            <img
-              alt="image"
-              src="public/playground_assets/circle-background.svg"
-              class="home-image"
-            />
-            <img
-              alt="image"
-              src="public/playground_assets/line-background.svg"
-              class="home-image01"
-            />
-          </div>
-          <header data-thq="thq-navbar" class="home-navbar">
-            <h2 class="home-text">OnConf</h2>
+        <div class="home-hero">
+          <video
+            src="public/playground_assets/pexels-cottonbro-5532763.mp4"
+            loop=""
+            muted=""
+            poster="https://play.teleporthq.io/static/svg/videoposter.svg"
+            preload="auto"
+            autoplay=""
+            playsinline=""
+            class="home-video"
+          ></video>
+          <div class="home-bg"></div>
+          <div class="home-container01">
+            <div class="home-container02">
+              <h1 class="home-text">
+                <span class="home-text01">AIM</span>
+                <span class="home-text02">data</span>
+              </h1>
+              <span class="home-text03">AI. Made simple.</span>
+            </div>
             <div
-              data-thq="thq-navbar-nav"
-              data-role="Nav"
-              class="home-desktop-menu"
+              class="transizione-grigio-container transizione-grigio-root-class-name"
             >
-              <nav
-                data-thq="thq-navbar-nav-links"
-                data-role="Nav"
-                class="home-nav"
-              >
-                <span class="navLink">Speakers</span>
-                <span class="navLink">Schedule</span>
-                <span class="navLink">Sponsors</span>
-                <span class="navLink">Useful</span>
-              </nav>
-              <button class="button">
-                <span>Register now</span>
-                <svg viewBox="0 0 1024 1024" class="home-icon">
-                  <path
-                    d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-            <div data-thq="thq-burger-menu" class="home-burger-menu">
-              <svg viewBox="0 0 1024 1024" class="home-icon02">
-                <path
-                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                ></path>
-              </svg>
-            </div>
-            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
-              <div
-                data-thq="thq-mobile-menu-nav"
-                data-role="Nav"
-                class="home-nav1"
-              >
-                <div class="home-container1">
-                  <h2 class="home-text02">OnConf</h2>
-                  <div data-thq="thq-close-menu" class="home-menu-close">
-                    <svg viewBox="0 0 1024 1024" class="home-icon04">
-                      <path
-                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <nav
-                  data-thq="thq-mobile-menu-nav-links"
-                  data-role="Nav"
-                  class="home-nav2"
-                >
-                  <span class="navLink home-text03">About</span>
-                  <span class="navLink home-text04">Features</span>
-                  <span class="navLink home-text05">Pricing</span>
-                  <span class="navLink home-text06">Team</span>
-                  <span class="navLink home-text07">Blog</span>
-                </nav>
-                <div class="home-button-container">
-                  <button class="home-login button">Login</button>
-                  <button class="button home-register1">Register</button>
-                </div>
-                <div class="home-icon-group">
-                  <div class="home-icons">
-                    <svg
-                      viewBox="0 0 950.8571428571428 1024"
-                      class="home-icon06"
-                    >
-                      <path
-                        d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
-                      ></path></svg
-                    ><svg
-                      viewBox="0 0 877.7142857142857 1024"
-                      class="home-icon08"
-                    >
-                      <path
-                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
-                      ></path></svg
-                    ><svg
-                      viewBox="0 0 602.2582857142856 1024"
-                      class="home-icon10"
-                    >
-                      <path
-                        d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
               <img
                 alt="image"
-                src="public/playground_assets/quote-background.svg"
-                class="home-background1"
-              />
-            </div>
-          </header>
-          <div class="home-hero-content">
-            <div class="home-caption">
-              <button class="button-style-1 button home-register2">
-                <span class="home-text08">Register now</span>
-              </button>
-              <p class="home-caption01">
-                22—24 November 2023 / OnConf.template
-              </p>
-            </div>
-          </div>
-        </section>
-        <section class="home-notes">
-          <div class="home-first">
-            <div data-aos="fade-up-right" class="home-content">
-              <h2 class="home-header">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </h2>
-              <div class="home-list">
-                <div class="home-note">
-                  <div class="home-point"></div>
-                  <p class="home-text09">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
-                  </p>
-                </div>
-                <div class="home-note1">
-                  <div class="home-point01"></div>
-                  <p class="home-text10">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <img
-              alt="image"
-              src="public/playground_assets/notes-1-1400w.png"
-              class="home-image02 image-notes"
-            />
-          </div>
-          <div class="home-second">
-            <div data-aos="fade-up-left" class="home-content01">
-              <h2 class="home-header01">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </h2>
-              <button class="button button-style-2 home-register3">
-                <span>Register now</span>
-                <svg viewBox="0 0 1024 1024" class="home-icon12">
-                  <path
-                    d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-            <img
-              alt="image"
-              src="public/playground_assets/notes-2-1400w.png"
-              class="image-notes"
-            />
-          </div>
-        </section>
-        <section class="home-quote">
-          <div class="home-content02">
-            <h2 class="home-quoted">
-              “I love lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliquaation ullamco 100%.”
-            </h2>
-            <div class="home-author">
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                class="home-icon14"
-              />
-              <div class="home-details">
-                <span class="home-name">Andy Smith</span>
-                <span class="home-from">(Founder OnConf)</span>
-              </div>
-            </div>
-          </div>
-          <img
-            alt="image"
-            src="public/playground_assets/quote-background.svg"
-            class="home-background2"
-          />
-          <img
-            alt="image"
-            src="public/playground_assets/quote-background.svg"
-            class="home-background3"
-          />
-        </section>
-        <section class="home-speakers">
-          <div class="home-header02">
-            <div class="section-numeral-section-numeral">
-              <div class="section-numeral-divide"></div>
-              <p class="section-numeral-text"><span>01</span></p>
-            </div>
-            <div data-aos="fade-right" class="home-heading">
-              <h2 class="home-title">Speakers</h2>
-              <p class="home-caption02">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
-              </p>
-            </div>
-          </div>
-          <div class="home-list1">
-            <div class="home-row">
-              <div class="speaker">
-                <div class="speaker-speaker speaker-root-class-name">
-                  <img
-                    alt="image"
-                    src="/playground_assets/speakers-1-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="speaker-speaker speaker-root-class-name3">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/speakers-2-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="home-row02 speaker">
-                <div class="speaker-speaker speaker-root-class-name2">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/speakers-3-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="speaker-speaker speaker-root-class-name1">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/speakers-4-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="home-row03">
-              <div class="home-row04 speaker">
-                <div class="speaker-speaker speaker-root-class-name13">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/speakers-4-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="speaker-speaker speaker-root-class-name12">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/speakers-3-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="home-row05 speaker">
-                <div class="speaker-speaker speaker-root-class-name10">
-                  <img
-                    alt="image"
-                    src="/playground_assets/speakers-1-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="speaker-speaker speaker-root-class-name11">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/speakers-2-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="home-row06">
-              <div class="home-row07 speaker">
-                <div class="speaker-speaker speaker-root-class-name15">
-                  <img
-                    alt="image"
-                    src="public/playground_assets/speakers-2-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="speaker-speaker speaker-root-class-name14">
-                  <img
-                    alt="image"
-                    src="/playground_assets/speakers-1-1500w.png"
-                    class="speaker-image"
-                  />
-                  <div class="speaker-deails">
-                    <h3 class="speaker-name"><span>Samantha Johnson</span></h3>
-                    <div class="speaker-position">
-                      <div class="speaker-point"></div>
-                      <span class="speaker-caption">
-                        <span>CEO, Opary</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="home-row08 speaker"></div>
-            </div>
-          </div>
-        </section>
-        <section class="home-watch">
-          <div class="home-content03">
-            <h2 class="home-header03">
-              Watch our Watch our OnConf 2022 trailer
-            </h2>
-            <div class="home-video">
-              <video
-                src=""
-                poster="public/playground_assets/quotes-1-1400w.png"
-                class="home-video1"
-              ></video>
-              <img
-                alt="image"
-                src="public/playground_assets/play.svg"
-                class="home-image04"
-              />
-            </div>
-            <button class="button home-register4">
-              <span>Register now</span>
-              <svg viewBox="0 0 1024 1024" class="home-icon15">
-                <path
-                  d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
-                ></path>
-              </svg>
-            </button>
-          </div>
-          <img
-            alt="image"
-            src="public/playground_assets/trailer-background.svg"
-            class="home-image05"
-          />
-        </section>
-        <section class="home-schedule">
-          <div class="home-content04">
-            <div class="home-header04">
-              <div class="home-section-numeral">
-                <div class="home-divide"></div>
-                <p class="home-text13">02</p>
-              </div>
-              <div data-aos="fade-right" class="home-heading1">
-                <h2 class="home-title01">Schedule</h2>
-                <p class="home-caption03">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
-                </p>
-              </div>
-            </div>
-            <div class="home-main">
-              <div class="home-tab-selector">
-                <div
-                  data-role="schedule-select"
-                  class="tab-active tab home-tab"
-                >
-                  <span class="home-text14">Friday, Nov 04</span>
-                </div>
-                <div data-role="schedule-select" class="tab home-tab1">
-                  <span class="home-text15">Saturday, Nov 05</span>
-                </div>
-                <div data-role="schedule-select" class="tab home-tab2">
-                  <span class="home-text16">Sunday, Nov 06</span>
-                </div>
-              </div>
-              <div class="home-lists">
-                <section data-role="schedule-content" class="home-list2">
-                  <div class="home-element">
-                    <div class="home-main01">
-                      <span class="home-time">
-                        8:00 AM - 2:00 PM GMT +1 / 10:00 AM - 4:00 PM Your local
-                        time (6 Hours)
-                      </span>
-                      <h3 class="home-title02">Pre-event networking</h3>
-                      <div class="home-author01">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon17"
-                        />
-                        <div class="home-details01">
-                          <span class="home-name01">Andy Smith</span>
-                          <div class="home-point02"></div>
-                          <span class="home-caption04">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button">
-                      Connect to chat room
-                    </button>
-                  </div>
-                  <div class="home-element01">
-                    <div class="home-main02">
-                      <span class="home-time01">
-                        3:00 PM - 3:30 PM GMT +1 / 5:00 PM - 5:30 PM Your local
-                        time (30 Minutes)
-                      </span>
-                      <h3 class="home-title03">How to Lorem Ipsum.</h3>
-                      <div class="home-author02">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon18"
-                        />
-                        <div class="home-details02">
-                          <span class="home-name02">Samantha Johnson</span>
-                          <div class="home-point03"></div>
-                          <span class="home-caption05">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button01">
-                      <span>
-                        <span>See live</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                  <div class="home-element02">
-                    <div class="home-main03">
-                      <span class="home-time02">
-                        3:00 PM - 3:30 PM GMT +1 / 5:00 PM - 5:30 PM Your local
-                        time (30 Minutes)
-                      </span>
-                      <h3 class="home-title04">How to Lorem Ipsum.</h3>
-                      <div class="home-author03">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon19"
-                        />
-                        <div class="home-details03">
-                          <span class="home-name03">Samantha Johnson</span>
-                          <div class="home-point04"></div>
-                          <span class="home-caption06">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button02">
-                      <span>
-                        <span>See live</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                  <div class="home-element03">
-                    <div class="home-main04">
-                      <span class="home-time03">
-                        3:00 PM - 3:30 PM GMT +1 / 5:00 PM - 5:30 PM Your local
-                        time (30 Minutes)
-                      </span>
-                      <h3 class="home-title05">How to Lorem Ipsum.</h3>
-                      <div class="home-author04">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon20"
-                        />
-                        <div class="home-details04">
-                          <span class="home-name04">Samantha Johnson</span>
-                          <div class="home-point05"></div>
-                          <span class="home-caption07">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button03">
-                      <span>
-                        <span>See live</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                  <div class="home-element04">
-                    <div class="home-main05">
-                      <span class="home-time04">
-                        3:00 PM - 3:30 PM GMT +1 / 5:00 PM - 5:30 PM Your local
-                        time (30 Minutes)
-                      </span>
-                      <h3 class="home-title06">How to Lorem Ipsum.</h3>
-                      <div class="home-author05">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon21"
-                        />
-                        <div class="home-details05">
-                          <span class="home-name05">Samantha Johnson</span>
-                          <div class="home-point06"></div>
-                          <span class="home-caption08">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button04">
-                      <span>
-                        <span>See live</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                  <div class="home-element05">
-                    <div class="home-main06">
-                      <span class="home-time05">
-                        8:00 PM - 10:00 PM GMT +1 / 10:00 PM - 12:00 AM Your
-                        local time (2 Hours)
-                      </span>
-                      <h3 class="home-title07">Post-event networking</h3>
-                      <div class="home-author06">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fHBvdHJhaXR8ZW58MHx8fHwxNjcxNDg1OTU2&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon22"
-                        />
-                        <div class="home-details06">
-                          <span class="home-name06">Samantha Johnson</span>
-                          <div class="home-point07"></div>
-                          <span class="home-caption09">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button05">
-                      <span>
-                        <span>Connect to chat room</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                </section>
-                <section data-role="schedule-content" class="home-list3">
-                  <div class="home-element06">
-                    <div class="home-main07">
-                      <span class="home-time06">
-                        3:00 PM - 3:30 PM GMT +1 / 5:00 PM - 5:30 PM Your local
-                        time (30 Minutes)
-                      </span>
-                      <h3 class="home-title08">How to Lorem Ipsum.</h3>
-                      <div class="home-author07">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon23"
-                        />
-                        <div class="home-details07">
-                          <span class="home-name07">Samantha Johnson</span>
-                          <div class="home-point08"></div>
-                          <span class="home-caption10">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button06">
-                      <span>
-                        <span>See live</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                  <div class="home-element07">
-                    <div class="home-main08">
-                      <span class="home-time07">
-                        8:00 AM - 2:00 PM GMT +1 / 10:00 AM - 4:00 PM Your local
-                        time (6 Hours)
-                      </span>
-                      <h3 class="home-title09">Pre-event networking</h3>
-                      <div class="home-author08">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon24"
-                        />
-                        <div class="home-details08">
-                          <span class="home-name08">Andy Smith</span>
-                          <div class="home-point09"></div>
-                          <span class="home-caption11">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button07">
-                      Connect to chat room
-                    </button>
-                  </div>
-                  <div class="home-element08">
-                    <div class="home-main09">
-                      <span class="home-time08">
-                        3:00 PM - 3:30 PM GMT +1 / 5:00 PM - 5:30 PM Your local
-                        time (30 Minutes)
-                      </span>
-                      <h3 class="home-title10">How to Lorem Ipsum.</h3>
-                      <div class="home-author09">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon25"
-                        />
-                        <div class="home-details09">
-                          <span class="home-name09">Samantha Johnson</span>
-                          <div class="home-point10"></div>
-                          <span class="home-caption12">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button08">
-                      <span>
-                        <span>See live</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                </section>
-                <section data-role="schedule-content" class="home-list4">
-                  <div class="home-element09">
-                    <div class="home-main10">
-                      <span class="home-time09">
-                        8:00 AM - 2:00 PM GMT +1 / 10:00 AM - 4:00 PM Your local
-                        time (6 Hours)
-                      </span>
-                      <h3 class="home-title11">Pre-event networking</h3>
-                      <div class="home-author10">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon26"
-                        />
-                        <div class="home-details10">
-                          <span class="home-name10">Andy Smith</span>
-                          <div class="home-point11"></div>
-                          <span class="home-caption13">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button09">
-                      Connect to chat room
-                    </button>
-                  </div>
-                  <div class="home-element10">
-                    <div class="home-main11">
-                      <span class="home-time10">
-                        3:00 PM - 3:30 PM GMT +1 / 5:00 PM - 5:30 PM Your local
-                        time (30 Minutes)
-                      </span>
-                      <h3 class="home-title12">How to Lorem Ipsum.</h3>
-                      <div class="home-author11">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon27"
-                        />
-                        <div class="home-details11">
-                          <span class="home-name11">Samantha Johnson</span>
-                          <div class="home-point12"></div>
-                          <span class="home-caption14">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button10">
-                      <span>
-                        <span>See live</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                  <div class="home-element11">
-                    <div class="home-main12">
-                      <span class="home-time11">
-                        3:00 PM - 3:30 PM GMT +1 / 5:00 PM - 5:30 PM Your local
-                        time (30 Minutes)
-                      </span>
-                      <h3 class="home-title13">How to Lorem Ipsum.</h3>
-                      <div class="home-author12">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1607957159143-de3859adca2d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxwb3RyYWl0fGVufDB8fHx8MTY3MTE5ODQwMQ&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon28"
-                        />
-                        <div class="home-details12">
-                          <span class="home-name12">Samantha Johnson</span>
-                          <div class="home-point13"></div>
-                          <span class="home-caption15">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button11">
-                      <span>
-                        <span>See live</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                  <div class="home-element12">
-                    <div class="home-main13">
-                      <span class="home-time12">
-                        8:00 PM - 10:00 PM GMT +1 / 10:00 PM - 12:00 AM Your
-                        local time (2 Hours)
-                      </span>
-                      <h3 class="home-title14">Post-event networking</h3>
-                      <div class="home-author13">
-                        <img
-                          alt="image"
-                          src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fHBvdHJhaXR8ZW58MHx8fHwxNjcxNDg1OTU2&amp;ixlib=rb-4.0.3&amp;w=200"
-                          class="home-icon29"
-                        />
-                        <div class="home-details13">
-                          <span class="home-name13">Samantha Johnson</span>
-                          <div class="home-point14"></div>
-                          <span class="home-caption16">CEO, Opary</span>
-                        </div>
-                      </div>
-                    </div>
-                    <button class="button home-button12">
-                      <span>
-                        <span>Connect to chat room</span>
-                        <br />
-                      </span>
-                    </button>
-                  </div>
-                </section>
-              </div>
-              <div>
-                <dangerous-html
-                  html="<script>
-// Get all tab buttons
-const tabButtons = document.querySelectorAll('[data-role='schedule-select']');
-// Get all tab contents
-const tabContents = document.querySelectorAll('[data-role='schedule-content']');
-
-// Add 'tab-active' class to the first tab button
-tabButtons[0].classList.add('tab-active');
-// Show the first tab content
-tabContents[0].style.display = 'block';
-
-tabButtons.forEach((tabButton, index) => {
-  tabButton.addEventListener('click', () => {
-    // Remove 'tab-active' class from all tab buttons
-    tabButtons.forEach((button) => {
-      button.classList.remove('tab-active');
-    });
-    // Add 'tab-active' class to the current tab button
-    tabButton.classList.add('tab-active');
-    // Hide all tab contents
-    tabContents.forEach((tabContent) => {
-      tabContent.style.display = 'none';
-    });
-    // Show the tab content for the current tab button
-    tabContents[index].style.display = 'block';
-  });
-});
-</script>"
-                ></dangerous-html>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="home-sponsors">
-          <div class="home-header05">
-            <div class="home-section-numeral1">
-              <div class="home-divide1"></div>
-              <p class="home-text47">03</p>
-            </div>
-            <div data-aos="fade-right" class="home-heading2">
-              <h2 class="home-title15">Sponsors</h2>
-              <p class="home-caption17">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
-              </p>
-            </div>
-          </div>
-          <div class="home-brands">
-            <div class="brand">
-              <img
-                alt="image"
-                src="public/playground_assets/brand-1.svg"
-                class="home-image06"
-              />
-            </div>
-            <div class="brand home-brand1">
-              <img
-                alt="image"
-                src="public/playground_assets/brand-2.svg"
-                class="home-image07"
-              />
-            </div>
-            <div class="brand home-brand2">
-              <img
-                alt="image"
-                src="public/playground_assets/brand-3.svg"
-                class="home-image08"
-              />
-            </div>
-            <div class="home-brand3 brand">
-              <img
-                alt="image"
-                src="public/playground_assets/brand-4.svg"
-                class="home-image09"
-              />
-            </div>
-            <div class="home-brand4 brand">
-              <img
-                alt="image"
-                src="public/playground_assets/brand-5.svg"
-                class="home-image10"
-              />
-            </div>
-            <div class="home-brand5 brand">
-              <img
-                alt="image"
-                src="public/playground_assets/brand-6.svg"
-                class="home-image11"
-              />
-            </div>
-            <div class="home-brand6 brand">
-              <img
-                alt="image"
-                src="public/playground_assets/brand-7.svg"
-                class="home-image12"
-              />
-            </div>
-            <div class="home-brand7 brand">
-              <img
-                alt="image"
-                src="public/playground_assets/brand-8.svg"
-                class="home-image13"
+                src="/playground_assets/gray-vector.svg"
+                class="transizione-grigio-transizione-grigio"
               />
             </div>
           </div>
-        </section>
-        <section class="home-why">
-          <div class="home-header06">
-            <div class="home-section-numeral2">
-              <div class="home-divide2"></div>
-              <p class="home-text48">04</p>
+        </div>
+        <div class="home-accessibilita-soluzioni-a-i">
+          <div class="home-container03">
+            <div class="home-container04">
+              <h3 class="home-text04 Healine">
+                Accessibilità delle soluzioni AI
+              </h3>
+              <span class="home-text05 TextXL">Problema VS Soluzione</span>
             </div>
-            <div data-aos="fade-right" class="home-heading3">
-              <h2 class="home-title16">Why OnConf</h2>
-              <p class="home-caption18">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
-              </p>
-            </div>
-          </div>
-          <div class="home-brands1">
-            <div class="home-row09">
-              <div class="home-item">
-                <img
-                  alt="image"
-                  src="public/playground_assets/why-1.svg"
-                  class="home-image14"
-                />
-                <div class="home-details14">
-                  <h3 class="home-title17">Networking</h3>
-                  <p class="home-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+            <div class="home-cards-container">
+              <div class="home-card1">
+                <div class="home-container05">
+                  <svg viewBox="0 0 1024 1024" class="home-icon">
+                    <path
+                      d="M639.403 658.091l32 241.152-137.429-82.475c-13.269-7.851-29.995-8.363-43.904 0l-137.429 82.475 32.043-241.109c39.296 15.829 82.304 24.533 127.317 24.533s88.021-8.747 127.403-24.576zM654.165 554.283c-2.475 1.28-4.821 2.773-6.955 4.48-39.253 24.448-85.547 38.571-135.211 38.571-70.699 0-134.656-28.587-181.035-74.965s-74.965-110.336-74.965-181.035 28.587-134.656 74.965-181.035 110.336-74.965 181.035-74.965 134.656 28.587 181.035 74.965 74.965 110.336 74.965 181.035-28.587 134.656-74.965 181.035c-11.861 11.861-24.875 22.571-38.869 31.915zM304.64 612.48l-48.256 363.221c-3.115 23.339 13.312 44.8 36.693 47.915 9.984 1.323 19.669-0.939 27.563-5.717l191.36-114.816 191.403 114.816c20.224 12.117 46.421 5.589 58.539-14.635 5.205-8.661 6.955-18.389 5.717-27.563l-48.213-363.307c11.947-9.173 23.296-19.115 33.92-29.739 61.696-61.696 99.968-147.072 99.968-241.323s-38.272-179.627-99.968-241.365-147.115-99.968-241.365-99.968-179.627 38.272-241.365 99.968-99.968 147.115-99.968 241.365 38.272 179.627 99.968 241.365c10.667 10.667 22.016 20.608 33.963 29.781z"
+                    ></path>
+                  </svg>
                 </div>
-              </div>
-              <div class="home-item1">
-                <img
-                  alt="image"
-                  src="public/playground_assets/why-2.svg"
-                  class="home-image15"
-                />
-                <div class="home-details15">
-                  <h3 class="home-title18">Learning</h3>
-                  <p class="home-description01">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-                </div>
-              </div>
-              <div class="home-item2">
-                <img
-                  alt="image"
-                  src="public/playground_assets/why-3.svg"
-                  class="home-image16"
-                />
-                <div class="home-details16">
-                  <h3 class="home-title19">Developing</h3>
-                  <p class="home-description02">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="home-black">
-          <img
-            alt="image"
-            src="public/playground_assets/black-vector.svg"
-            class="home-image17"
-          />
-          <section class="home-quotes">
-            <div class="home-row10">
-              <img
-                alt="image"
-                src="public/playground_assets/quotes-1-1400w.png"
-                class="home-image18"
-              />
-              <div class="home-row11">
-                <div class="home-details17">
-                  <p class="home-quote01">
-                    “Lorem ipsum dolor sit amet consectetur “
-                  </p>
-                  <span class="home-author14">The Guard</span>
-                </div>
-                <img
-                  alt="image"
-                  src="public/playground_assets/quotes-2-700w.png"
-                  class="home-image19"
-                />
-              </div>
-            </div>
-            <div class="home-row12">
-              <div class="home-details18">
-                <p class="home-quote02">
-                  “Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet“
-                </p>
-                <span class="home-author15">Wall Street News</span>
-              </div>
-              <img
-                alt="image"
-                src="public/playground_assets/quotes-3-1400w.png"
-                class="home-image20"
-              />
-              <div class="home-details19">
-                <p class="home-quote03">
-                  “Duis aute irure dolor in reprehenderit in voluptate velit “
-                </p>
-                <span class="home-author16">Inside Business</span>
-              </div>
-            </div>
-          </section>
-          <section class="home-testimonials">
-            <div class="home-header07">
-              <div class="home-section-numeral3">
-                <div class="home-divide3"></div>
-                <p class="home-text49">05</p>
-              </div>
-              <div data-aos="fade-right" class="home-heading4">
-                <h2 class="home-title20">
-                  Don’t just take our word for it. Here’s what past attendees
-                  have to say:
-                </h2>
-              </div>
-            </div>
-            <div id="scrollbar" class="home-quotes1">
-              <div class="home-quote04">
-                <div class="home-author17">
-                  <img
-                    alt="image"
-                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image21"
-                  />
-                  <div class="home-details20">
-                    <span class="home-name14">Samantha Johnson</span>
-                    <span class="home-handle">@thisissammy</span>
-                  </div>
-                </div>
-                <p class="home-quote05">
-                  “Duis aute irure dolor in reprehenderit in voluptate velit.”
-                </p>
-              </div>
-              <div class="home-quote06">
-                <div class="home-author18">
-                  <img
-                    alt="image"
-                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image22"
-                  />
-                  <div class="home-details21">
-                    <span class="home-name15">Samantha Johnson</span>
-                    <span class="home-handle1">@thisissammy</span>
-                  </div>
-                </div>
-                <p class="home-quote07">
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  ”
-                </p>
-              </div>
-              <div class="home-quote08">
-                <div class="home-author19">
-                  <img
-                    alt="image"
-                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image23"
-                  />
-                  <div class="home-details22">
-                    <span class="home-name16">Samantha Johnson</span>
-                    <span class="home-handle2">@thisissammy</span>
-                  </div>
-                </div>
-                <p class="home-quote09">
-                  “Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea.”
-                </p>
-              </div>
-              <div class="home-quote10">
-                <div class="home-author20">
-                  <img
-                    alt="image"
-                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image24"
-                  />
-                  <div class="home-details23">
-                    <span class="home-name17">Samantha Johnson</span>
-                    <span class="home-handle3">@thisissammy</span>
-                  </div>
-                </div>
-                <p class="home-quote11">
-                  “Duis aute irure dolor in reprehenderit in voluptate velit.”
-                </p>
-              </div>
-              <div class="home-quote12">
-                <div class="home-author21">
-                  <img
-                    alt="image"
-                    src="https://images.unsplash.com/photo-1603771550805-abcf98e420e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxwb3RyYWl0fGVufDB8fHx8MTY3MTQ4NTk1Ng&amp;ixlib=rb-4.0.3&amp;w=200"
-                    class="home-image25"
-                  />
-                  <div class="home-details24">
-                    <span class="home-name18">Samantha Johnson</span>
-                    <span class="home-handle4">@thisissammy</span>
-                  </div>
-                </div>
-                <p class="home-quote13">
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  ”
-                </p>
-              </div>
-            </div>
-          </section>
-          <section class="home-join">
-            <h2 class="home-title21">Join us at OnConf on November 22-24</h2>
-            <button class="home-button13 button">
-              <span>
-                <span>Register now</span>
-                <br />
-              </span>
-            </button>
-          </section>
-          <section class="home-more">
-            <div class="home-header08">
-              <div class="home-section-numeral4">
-                <div class="home-divide4"></div>
-                <p class="home-text53">06</p>
-              </div>
-              <div data-aos="fade-right" class="home-heading5">
-                <h2 class="home-title22">
-                  More about pricing, accessibility or what this year’s event
-                  includes
-                </h2>
-              </div>
-            </div>
-            <div class="home-accordions">
-              <div class="home-accordion">
-                <div class="home-header09">
-                  <div class="home-divide5"></div>
-                  <h3 class="home-title23">Event information</h3>
-                </div>
-                <div class="home-items">
-                  <div
-                    data-role="accordion-container"
-                    class="home-element13 accordion"
-                  >
-                    <div class="home-content05">
-                      <span class="home-header10">
-                        Esse cillum dolore eu fugiat nulla pariatur.
-                      </span>
-                      <span
-                        data-role="accordion-content"
-                        class="home-description03"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </span>
-                    </div>
-                    <div class="home-icon-container">
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-closed"
-                        class="home-icon30"
-                      >
-                        <path
-                          d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path></svg
-                      ><svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-open"
-                        class="home-icon32"
-                      >
-                        <path
-                          d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div
-                    data-role="accordion-container"
-                    class="home-element14 accordion"
-                  >
-                    <div class="home-content06">
-                      <span class="home-header11">
-                        Esse cillum dolore eu fugiat nulla pariatur.
-                      </span>
-                      <span
-                        data-role="accordion-content"
-                        class="home-description04"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </span>
-                    </div>
-                    <div class="home-icon-container1">
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-closed"
-                        class="home-icon34"
-                      >
-                        <path
-                          d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path></svg
-                      ><svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-open"
-                        class="home-icon36"
-                      >
-                        <path
-                          d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div
-                    data-role="accordion-container"
-                    class="home-element15 accordion"
-                  >
-                    <div class="home-content07">
-                      <span class="home-header12">
-                        Esse cillum dolore eu fugiat nulla pariatur.
-                      </span>
-                      <span
-                        data-role="accordion-content"
-                        class="home-description05"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </span>
-                    </div>
-                    <div class="home-icon-container2">
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-closed"
-                        class="home-icon38"
-                      >
-                        <path
-                          d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path></svg
-                      ><svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-open"
-                        class="home-icon40"
-                      >
-                        <path
-                          d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="home-accordion1">
-                <div class="home-header13">
-                  <div class="home-divide6"></div>
-                  <h3 class="home-title24">Event information</h3>
-                </div>
-                <div class="home-items1">
-                  <div
-                    data-role="accordion-container"
-                    class="home-element16 accordion"
-                  >
-                    <div class="home-content08">
-                      <span class="home-header14">
-                        Esse cillum dolore eu fugiat nulla pariatur.
-                      </span>
-                      <span
-                        data-role="accordion-content"
-                        class="home-description06"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </span>
-                    </div>
-                    <div class="home-icon-container3">
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-closed"
-                        class="home-icon42"
-                      >
-                        <path
-                          d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path></svg
-                      ><svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-open"
-                        class="home-icon44"
-                      >
-                        <path
-                          d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div
-                    data-role="accordion-container"
-                    class="home-element17 accordion"
-                  >
-                    <div class="home-content09">
-                      <span class="home-header15">
-                        Esse cillum dolore eu fugiat nulla pariatur.
-                      </span>
-                      <span
-                        data-role="accordion-content"
-                        class="home-description07"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </span>
-                    </div>
-                    <div class="home-icon-container4">
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-closed"
-                        class="home-icon46"
-                      >
-                        <path
-                          d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path></svg
-                      ><svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-open"
-                        class="home-icon48"
-                      >
-                        <path
-                          d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div
-                    data-role="accordion-container"
-                    class="home-element18 accordion"
-                  >
-                    <div class="home-content10">
-                      <span class="home-header16">
-                        Esse cillum dolore eu fugiat nulla pariatur.
-                      </span>
-                      <span
-                        data-role="accordion-content"
-                        class="home-description08"
-                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </span>
-                    </div>
-                    <div class="home-icon-container5">
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-closed"
-                        class="home-icon50"
-                      >
-                        <path
-                          d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path></svg
-                      ><svg
-                        viewBox="0 0 1024 1024"
-                        data-role="accordion-icon-open"
-                        class="home-icon52"
-                      >
-                        <path
-                          d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <dangerous-html
-                  html="<script>
- /*
-  Accordion - Code Embed
-  */
-  const accordionContainers = document.querySelectorAll('[data-role='accordion-container']'); // All accordion containers
-  const accordionContents = document.querySelectorAll('[data-role='accordion-content']'); // All accordion content
-  const accordionIconsClosed = document.querySelectorAll('[data-role='accordion-icon-closed']'); // All accordion closed icons
-  const accordionIconsOpen = document.querySelectorAll('[data-role='accordion-icon-open']'); // All accordion open icons
-
-  accordionContents.forEach((accordionContent) => {
-      accordionContent.style.display = 'none'; //Hides all accordion contents
-  });
-
-  accordionIconsClosed.forEach((icon) => {
-    icon.style.display = 'flex'
-  })
-
-  accordionIconsOpen.forEach((icon) => {
-    icon.style.display = 'none'
-  })
-
-  accordionContainers.forEach((accordionContainer, index) => {
-      accordionContainer.addEventListener('click', () => {
-          if (accordionContents[index].style.display === 'flex') {
-              // If the accordion is already open, close it
-              accordionContents[index].style.display = 'none';
-              accordionIconsClosed[index].style.display = 'flex';
-              accordionIconsOpen[index].style.display = 'none'
-          } else {
-              // If the accordion is closed, open it
-              accordionContents.forEach((accordionContent) => {
-                  accordionContent.style.display = 'none'; //Hides all accordion contents
-              });
-
-              accordionIconsClosed.forEach((accordionIcon) => {
-                  accordionIcon.style.display = 'flex'; // Resets all icon transforms to 0deg (default)
-              });
-
-              accordionIconsOpen.forEach((accordionIcon) => {
-                accordionIcon.style.display = 'none';
-              })
-              
-              accordionContents[index].style.display = 'flex'; // Shows accordion content
-              accordionIconsClosed[index].style.display = 'none'; // Rotates accordion icon 180deg
-              accordionIconsOpen[index].style.display = 'flex';
-          }
-      });
-  });
-</script>
-"
-                ></dangerous-html>
-              </div>
-            </div>
-          </section>
-        </section>
-        <section class="home-subscribe">
-          <div class="home-main14">
-            <h2 class="home-header17">
-              Subscribe to our newsletter for the latest OnConf news
-            </h2>
-            <div class="home-content11">
-              <div class="home-inputs">
-                <input
-                  type="text"
-                  required=""
-                  placeholder="Name *"
-                  autocomplete="name"
-                  class="home-textinput input"
-                />
-                <input
-                  type="email"
-                  required=""
-                  placeholder="Email *"
-                  autocomplete="email"
-                  class="home-textinput1 input"
-                />
-              </div>
-              <span class="home-text54">
-                By submitting, you agree to receive email communications from
-                OnConf, including upcoming promotions and discounted tickets,
-                news, and access to exclusive invite-only events.
-              </span>
-              <button class="home-button14 button">
-                <span>
-                  <span>Sign up for our newsletter</span>
-                  <br />
+                <h6 class="home-text06 TextXL">Tecnologia comprovata</h6>
+                <span class="home-text07">
+                  <span>AI</span>
+                  <span class="home-text09">pronta</span>
+                  <span>e già ampiamente utilizzata a livello</span>
+                  <span class="home-text11">enterprise</span>
+                  <span>in molteplici contesti</span>
                 </span>
-              </button>
+              </div>
+              <div class="home-card2">
+                <div class="home-container06">
+                  <svg viewBox="0 0 1097.142857142857 1024" class="home-icon02">
+                    <path
+                      d="M438.857 658.286h219.429v-54.857h-73.143v-256h-65.143l-84.571 78.286 44 45.714c13.714-12 22.286-18.286 31.429-32.571h1.143v164.571h-73.143v54.857zM731.429 512c0 104-62.857 237.714-182.857 237.714s-182.857-133.714-182.857-237.714 62.857-237.714 182.857-237.714 182.857 133.714 182.857 237.714zM1024 658.286v-292.571c-80.571 0-146.286-65.714-146.286-146.286h-658.286c0 80.571-65.714 146.286-146.286 146.286v292.571c80.571 0 146.286 65.714 146.286 146.286h658.286c0-80.571 65.714-146.286 146.286-146.286zM1097.143 182.857v658.286c0 20-16.571 36.571-36.571 36.571h-1024c-20 0-36.571-16.571-36.571-36.571v-658.286c0-20 16.571-36.571 36.571-36.571h1024c20 0 36.571 16.571 36.571 36.571z"
+                    ></path>
+                  </svg>
+                </div>
+                <h6 class="home-text13 TextXL">Barriera di ingresso</h6>
+                <span class="home-text14">
+                  <span>
+                    I big players offrono strumenti AI e implementano progetti a
+                    tariffe accessibili solamente alle
+                  </span>
+                  <span class="home-text16">grandi compagnie</span>
+                </span>
+              </div>
+              <div class="home-card3">
+                <div class="home-container07">
+                  <svg viewBox="0 0 1024 1024" class="home-icon04">
+                    <path
+                      d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                    ></path>
+                  </svg>
+                </div>
+                <h6 class="home-text17 TextXL">La nostra offerta</h6>
+                <span class="home-text18">
+                  <span class="home-text19">Soluzioni di</span>
+                  <span class="home-text20">valore</span>
+                  <span class="home-text21">e</span>
+                  <span class="home-text22">performanti</span>
+                  <span class="home-text23">
+                    a costi fortemente concorrenziali per introdurre i vantaggi
+                    dell’intelligenza artificiale nelle PMI
+                  </span>
+                  <br class="home-text24" />
+                  <br class="home-text25" />
+                </span>
+              </div>
             </div>
           </div>
-        </section>
-        <footer class="home-footer">
-          <div class="home-content12">
-            <div class="home-details25">
-              <h2 class="home-title25">OnConf</h2>
-              <p class="home-description09">
-                Product Calgary brings professionals together to connect, learn
-                from each other, find opportunities, and find talent. We started
-                as a meetup and have grown to be Alberta’s largest Product
-                Management community.
-              </p>
+          <div
+            class="transizione-bianco-container transizione-bianco-root-class-name"
+          >
+            <img
+              alt="image"
+              src="/playground_assets/white-vector.svg"
+              class="transizione-bianco-transizione-bianco"
+            />
+          </div>
+        </div>
+        <div class="home-soluzioni">
+          <div class="home-container08">
+            <div class="label-container">
+              <h6 class="label-text"><span>WITH BURNED SOLES​</span></h6>
             </div>
-            <div class="home-socials">
-              <img
-                alt="image"
-                src="public/playground_assets/linkedin.svg"
-                class="social"
-              />
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="home-link4"
-              >
-                <img
-                  alt="image"
-                  src="public/playground_assets/instagram.svg"
-                  class="home-image27 social"
-                />
-              </a>
-              <a
-                href="https://example.com"
-                target="_blank"
-                rel="noreferrer noopener"
-                class="home-link5"
-              >
-                <img
-                  alt="image"
-                  src="public/playground_assets/twitter.svg"
-                  class="home-image28 social"
-                />
-              </a>
-            </div>
-            <span class="home-copyright">
-              Privacy — Terms &amp; Conditions — Code of Conduct © 2022 OnConf
-              All Rights Reserved
+            <h2 class="home-text26 Text2XL">
+              <span class="home-text27">Vantaggi</span>
+              <br />
+            </h2>
+            <span class="home-text29 TextXL">
+              L'automazione al servizio della tua azienda
             </span>
           </div>
-        </footer>
-        <div>
-          <dangerous-html
-            html="<script>
-    ScrollReveal().reveal('.speaker');
-    ScrollReveal().reveal('.image-notes');
-</script>"
-          ></dangerous-html>
+          <div class="home-growing-company-section">
+            <img
+              alt="image"
+              src="https://images.unsplash.com/photo-1651525670054-279c154bc3b6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI5fHxjb252ZXlvcnxlbnwwfHx8fDE2NzYxMzUyOTU&amp;ixlib=rb-4.0.3&amp;w=1400"
+              class="home-image"
+            />
+            <div class="home-container09">
+              <div class="home-container10">
+                <svg viewBox="0 0 967.4605714285714 1024" class="home-icon06">
+                  <path
+                    d="M822.857 256c0-30.286-24.571-54.857-54.857-54.857s-54.857 24.571-54.857 54.857 24.571 54.857 54.857 54.857 54.857-24.571 54.857-54.857zM950.857 91.429c0 189.714-52.571 316-188 452-33.143 32.571-70.857 66.286-111.429 100.571l-11.429 216.571c-0.571 5.714-4 11.429-9.143 14.857l-219.429 128c-2.857 1.714-5.714 2.286-9.143 2.286-4.571 0-9.143-1.714-13.143-5.143l-36.571-36.571c-4.571-5.143-6.286-12-4.571-18.286l48.571-157.714-160.571-160.571-157.714 48.571c-1.714 0.571-3.429 0.571-5.143 0.571-4.571 0-9.714-1.714-13.143-5.143l-36.571-36.571c-5.714-6.286-6.857-15.429-2.857-22.286l128-219.429c3.429-5.143 9.143-8.571 14.857-9.143l216.571-11.429c34.286-40.571 68-78.286 100.571-111.429 142.857-142.286 252-188 450.857-188 10.286 0 19.429 8 19.429 18.286z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="home-text30 Healine">A growing company</h3>
+              <span class="home-text31">
+                The extension comes with three pre-build pages to help you get
+                started faster. You can change the text and images and you're
+                good to go.
+              </span>
+              <div class="home-container11">
+                <div class="home-container12">
+                  <svg viewBox="0 0 1024 1024" class="home-icon08">
+                    <path
+                      d="M636 938h-6q-92-24-158-90-38-38-65-103t-27-119q0-52 38-89t92-37 93 37 39 89q0 34 25 58t63 24 64-24 26-58q0-120-91-206t-219-86q-92 0-168 47t-114 125q-24 50-24 120 0 80 28 154 6 20-14 26t-26-12q-32-82-32-168 0-78 30-138 42-90 129-144t191-54q146 0 249 99t103 237q0 52-39 88t-93 36-92-36-38-88q0-34-26-59t-64-25-63 25-25 59q0 112 80 192 56 56 140 78 18 2 14 26-4 16-20 16zM530 626q0 74 55 128t137 54q4 0 18-2t23-2 18 3 11 13q4 22-18 26-24 4-52 4-80 0-132-38-102-70-102-186 0-22 22-22 20 0 20 22zM416 930q-8 0-14-6-54-54-86-114-46-80-46-184 0-94 71-162t171-68 171 68 71 162q0 20-22 20t-22-20q0-78-58-133t-140-55-140 55-58 133q0 96 38 164 26 46 80 104 16 14 0 30-6 6-16 6zM150 414q-22 0-22-20 0-4 4-12 64-92 160-140 100-52 220-52t220 52q98 48 160 138 4 8 4 12 0 14-16 20t-24-8q-60-82-144-124-92-46-200-47t-200 47q-90 46-146 126-6 8-16 8zM760 190q-8 0-10-2-118-60-238-60-130 0-238 60-10 6-20 0t-10-18q0-14 10-20 116-64 258-64 130 0 258 64 18 10 8 28-8 12-18 12z"
+                    ></path>
+                  </svg>
+                </div>
+                <span class="home-text32">Carefully crafted components</span>
+              </div>
+              <div class="home-container13">
+                <div class="home-container14">
+                  <svg viewBox="0 0 1024 1024" class="home-icon10">
+                    <path
+                      d="M917.806 357.076c-22.21-30.292-53.174-65.7-87.178-99.704s-69.412-64.964-99.704-87.178c-51.574-37.82-76.592-42.194-90.924-42.194h-368c-44.114 0-80 35.888-80 80v736c0 44.112 35.886 80 80 80h608c44.112 0 80-35.888 80-80v-496c0-14.332-4.372-39.35-42.194-90.924zM785.374 302.626c30.7 30.7 54.8 58.398 72.58 81.374h-153.954v-153.946c22.982 17.78 50.678 41.878 81.374 72.572v0zM896 944c0 8.672-7.328 16-16 16h-608c-8.672 0-16-7.328-16-16v-736c0-8.672 7.328-16 16-16 0 0 367.956-0.002 368 0v224c0 17.672 14.324 32 32 32h224v496z"
+                    ></path>
+                    <path
+                      d="M602.924 42.196c-51.574-37.822-76.592-42.196-90.924-42.196h-368c-44.112 0-80 35.888-80 80v736c0 38.632 27.528 70.958 64 78.39v-814.39c0-8.672 7.328-16 16-16h486.876c-9.646-7.92-19.028-15.26-27.952-21.804z"
+                    ></path>
+                  </svg>
+                </div>
+                <span class="home-text33">Amazing page examples</span>
+              </div>
+              <div class="home-container15">
+                <div class="home-container16">
+                  <svg
+                    viewBox="0 0 1024.5851428571427 1024"
+                    class="home-icon13"
+                  >
+                    <path
+                      d="M1008 6.286c12 8.571 17.714 22.286 15.429 36.571l-146.286 877.714c-1.714 10.857-8.571 20-18.286 25.714-5.143 2.857-11.429 4.571-17.714 4.571-4.571 0-9.143-1.143-13.714-2.857l-301.143-122.857-170.286 186.857c-6.857 8-16.571 12-26.857 12-4.571 0-9.143-0.571-13.143-2.286-14.286-5.714-23.429-19.429-23.429-34.286v-258.286l-269.714-110.286c-13.143-5.143-21.714-17.143-22.857-31.429-1.143-13.714 6.286-26.857 18.286-33.714l950.857-548.571c12-7.429 27.429-6.857 38.857 1.143zM812.571 862.857l126.286-756-819.429 472.571 192 78.286 493.143-365.143-273.143 455.429z"
+                    ></path>
+                  </svg>
+                </div>
+                <span class="home-text34">Dynamic components</span>
+              </div>
+            </div>
+          </div>
+          <div class="home-container17">
+            <h6 class="home-text35"><span>THE ENTOURAGE</span></h6>
+            <h3 class="home-text37 Healine">
+              It is everything, and it won't change
+            </h3>
+            <span class="home-text38 TextXL">
+              <span class="home-text39">
+                It depends on your friends and companions, it depends on who
+                goes out with you, if they have money, if you have money.
+              </span>
+            </span>
+          </div>
+          <div class="home-team">
+            <div class="home-container18">
+              <a href="profile.html" class="home-navlink">
+                <div class="home-container19">
+                  <div class="member-details-container">
+                    <img
+                      alt="image"
+                      src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                      class="member-details-image"
+                    />
+                    <h1 class="member-details-text TextXL">
+                      <span>Ryan Tompson</span>
+                    </h1>
+                    <h1 class="member-details-text1 TextSM">
+                      <span>WEB DEVELOPER</span>
+                    </h1>
+                  </div>
+                  <div class="home-container20">
+                    <div class="home-container21">
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="home-icon15"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-container22">
+                      <svg viewBox="0 0 1024 1024" class="home-icon17">
+                        <path
+                          d="M783.104 239.957c-74.667-74.283-165.888-111.957-271.104-111.957-106.197 0-197.675 37.717-271.915 112-74.368 74.283-112.085 165.845-112.085 272 0 105.173 37.675 196.395 111.957 271.104 74.283 74.923 165.803 112.896 272.043 112.896 105.259 0 196.48-37.973 271.189-112.768 74.88-74.795 112.811-166.059 112.811-271.232 0-106.155-37.973-197.717-112.896-272.043zM722.859 722.901c-48.512 48.597-103.936 76.288-168.192 84.693v-210.261h85.333v-85.333h-85.333v-59.733c0-14.123 11.477-25.6 25.643-25.6h59.691v-85.333h-59.605c-31.659 0-58.069 11.648-79.232 35.072-21.163 23.339-31.829 51.84-31.829 85.675v49.92h-85.333v85.333h85.333v210.347c-64.939-8.32-120.576-36.053-168.832-84.651-58.667-59.051-87.168-128.085-87.168-211.029 0-83.883 28.459-153.088 87.125-211.627 58.453-58.581 127.659-87.040 211.541-87.040 82.987 0 151.979 28.501 210.987 87.168 59.008 58.539 87.68 127.744 87.68 211.499 0 82.816-28.715 151.851-87.808 210.901z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-container23">
+                      <svg viewBox="0 0 1024 1024" class="home-icon19">
+                        <path
+                          d="M382 554h88v382q-62-6-139-43t-123-83q62-34 113-110t61-146zM730 554h206q-10 100-66 188-50-24-90-79t-50-109zM154 742q-58-90-66-188h206q-10 54-50 109t-90 79zM642 554q10 70 61 146t113 110q-44 46-121 83t-141 43v-382h88zM382 470q-10-70-61-146t-113-110q44-46 121-83t141-43v382h-88zM642 470h-88v-382q62 6 139 43t123 83q-62 34-113 110t-61 146zM294 470h-206q10-100 66-188 50 24 90 79t50 109zM730 470q10-54 50-109t90-79q56 88 66 188h-206z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="profile.html" class="home-navlink1">
+                <div class="home-container24">
+                  <div class="member-details-container">
+                    <img
+                      alt="image"
+                      src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                      class="member-details-image"
+                    />
+                    <h1 class="member-details-text TextXL">
+                      <span>Romina Hadid</span>
+                    </h1>
+                    <h1 class="member-details-text1 TextSM">
+                      <span>Marketing Specialist</span>
+                    </h1>
+                  </div>
+                  <div class="home-container25">
+                    <div class="home-container26">
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="home-icon21"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-container27">
+                      <svg viewBox="0 0 1024 1024" class="home-icon23">
+                        <path
+                          d="M783.104 239.957c-74.667-74.283-165.888-111.957-271.104-111.957-106.197 0-197.675 37.717-271.915 112-74.368 74.283-112.085 165.845-112.085 272 0 105.173 37.675 196.395 111.957 271.104 74.283 74.923 165.803 112.896 272.043 112.896 105.259 0 196.48-37.973 271.189-112.768 74.88-74.795 112.811-166.059 112.811-271.232 0-106.155-37.973-197.717-112.896-272.043zM722.859 722.901c-48.512 48.597-103.936 76.288-168.192 84.693v-210.261h85.333v-85.333h-85.333v-59.733c0-14.123 11.477-25.6 25.643-25.6h59.691v-85.333h-59.605c-31.659 0-58.069 11.648-79.232 35.072-21.163 23.339-31.829 51.84-31.829 85.675v49.92h-85.333v85.333h85.333v210.347c-64.939-8.32-120.576-36.053-168.832-84.651-58.667-59.051-87.168-128.085-87.168-211.029 0-83.883 28.459-153.088 87.125-211.627 58.453-58.581 127.659-87.040 211.541-87.040 82.987 0 151.979 28.501 210.987 87.168 59.008 58.539 87.68 127.744 87.68 211.499 0 82.816-28.715 151.851-87.808 210.901z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="profile.html" class="home-navlink2">
+                <div class="home-container28">
+                  <div class="member-details-container">
+                    <img
+                      alt="image"
+                      src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                      class="member-details-image"
+                    />
+                    <h1 class="member-details-text TextXL">
+                      <span>Alexa Smith</span>
+                    </h1>
+                    <h1 class="member-details-text1 TextSM">
+                      <span>UI/UX Designer</span>
+                    </h1>
+                  </div>
+                  <div class="home-container29">
+                    <div class="home-container30">
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="home-icon25"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-container31">
+                      <svg viewBox="0 0 1024 1024" class="home-icon27">
+                        <path
+                          d="M783.104 239.957c-74.667-74.283-165.888-111.957-271.104-111.957-106.197 0-197.675 37.717-271.915 112-74.368 74.283-112.085 165.845-112.085 272 0 105.173 37.675 196.395 111.957 271.104 74.283 74.923 165.803 112.896 272.043 112.896 105.259 0 196.48-37.973 271.189-112.768 74.88-74.795 112.811-166.059 112.811-271.232 0-106.155-37.973-197.717-112.896-272.043zM722.859 722.901c-48.512 48.597-103.936 76.288-168.192 84.693v-210.261h85.333v-85.333h-85.333v-59.733c0-14.123 11.477-25.6 25.643-25.6h59.691v-85.333h-59.605c-31.659 0-58.069 11.648-79.232 35.072-21.163 23.339-31.829 51.84-31.829 85.675v49.92h-85.333v85.333h85.333v210.347c-64.939-8.32-120.576-36.053-168.832-84.651-58.667-59.051-87.168-128.085-87.168-211.029 0-83.883 28.459-153.088 87.125-211.627 58.453-58.581 127.659-87.040 211.541-87.040 82.987 0 151.979 28.501 210.987 87.168 59.008 58.539 87.68 127.744 87.68 211.499 0 82.816-28.715 151.851-87.808 210.901z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-container32">
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="home-icon29"
+                      >
+                        <path
+                          d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="profile.html" class="home-navlink3">
+                <div class="home-container33">
+                  <div class="member-details-container">
+                    <img
+                      alt="image"
+                      src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                      class="member-details-image"
+                    />
+                    <h1 class="member-details-text TextXL">
+                      <span>Jenna Kardi</span>
+                    </h1>
+                    <h1 class="member-details-text1 TextSM">
+                      <span>Founder and ceo</span>
+                    </h1>
+                  </div>
+                  <div class="home-container34">
+                    <div class="home-container35">
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="home-icon31"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-container36">
+                      <svg viewBox="0 0 1024 1024" class="home-icon33">
+                        <path
+                          d="M783.104 239.957c-74.667-74.283-165.888-111.957-271.104-111.957-106.197 0-197.675 37.717-271.915 112-74.368 74.283-112.085 165.845-112.085 272 0 105.173 37.675 196.395 111.957 271.104 74.283 74.923 165.803 112.896 272.043 112.896 105.259 0 196.48-37.973 271.189-112.768 74.88-74.795 112.811-166.059 112.811-271.232 0-106.155-37.973-197.717-112.896-272.043zM722.859 722.901c-48.512 48.597-103.936 76.288-168.192 84.693v-210.261h85.333v-85.333h-85.333v-59.733c0-14.123 11.477-25.6 25.643-25.6h59.691v-85.333h-59.605c-31.659 0-58.069 11.648-79.232 35.072-21.163 23.339-31.829 51.84-31.829 85.675v49.92h-85.333v85.333h85.333v210.347c-64.939-8.32-120.576-36.053-168.832-84.651-58.667-59.051-87.168-128.085-87.168-211.029 0-83.883 28.459-153.088 87.125-211.627 58.453-58.581 127.659-87.040 211.541-87.040 82.987 0 151.979 28.501 210.987 87.168 59.008 58.539 87.68 127.744 87.68 211.499 0 82.816-28.715 151.851-87.808 210.901z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-container37">
+                      <svg viewBox="0 0 1024 1024" class="home-icon35">
+                        <path
+                          d="M382 554h88v382q-62-6-139-43t-123-83q62-34 113-110t61-146zM730 554h206q-10 100-66 188-50-24-90-79t-50-109zM154 742q-58-90-66-188h206q-10 54-50 109t-90 79zM642 554q10 70 61 146t113 110q-44 46-121 83t-141 43v-382h88zM382 470q-10-70-61-146t-113-110q44-46 121-83t141-43v382h-88zM642 470h-88v-382q62 6 139 43t123 83q-62 34-113 110t-61 146zM294 470h-206q10-100 66-188 50 24 90 79t50 109zM730 470q10-54 50-109t90-79q56 88 66 188h-206z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="home-container38">
+                      <svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="home-icon37"
+                      >
+                        <path
+                          d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="transizione-grigio-container transizione-grigio-root-class-name1"
+          >
+            <img
+              alt="image"
+              src="/playground_assets/gray-vector.svg"
+              class="transizione-grigio-transizione-grigio"
+            />
+          </div>
         </div>
-        <div>
-          <dangerous-html
-            html="<style>
-#scrollbar::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-#scrollbar::-webkit-scrollbar
-{
-	height: 12px;
-	background-color: #F5F5F5;
-	border-radius: 10px;
-}
-
-#scrollbar::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
-}
-</style>"
-          ></dangerous-html>
+        <div class="home-vantaggi">
+          <div class="home-container39">
+            <div class="home-container40">
+              <h3 class="home-text40 Healine">
+                Accessibilità delle soluzioni AI
+              </h3>
+              <span class="home-text41 TextXL">Problema VS Soluzione</span>
+            </div>
+          </div>
+          <div
+            class="transizione-bianco-container transizione-bianco-root-class-name1"
+          >
+            <img
+              alt="image"
+              src="/playground_assets/white-vector.svg"
+              class="transizione-bianco-transizione-bianco"
+            />
+          </div>
+        </div>
+        <div class="home-section3">
+          <div class="home-container41">
+            <h6 class="home-text42 TextSM"><span>ON THE COASTLINE</span></h6>
+            <h3 class="home-text44 Healine">We are missing the summer</h3>
+            <span class="home-text45 TextXL">
+              <span class="home-text46">
+                We're waiting for the weather to warm up so that we can go to
+                the coastline. We really miss the summertime, our second home
+                the coastline.
+              </span>
+              <br />
+            </span>
+            <div class="home-services">
+              <div class="service-card-container">
+                <div class="service-card-container1">
+                  <svg viewBox="0 0 1024 1024" class="service-card-icon">
+                    <path
+                      d="M512 86q124 0 211 87t87 211q0 150-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"
+                    ></path>
+                  </svg>
+                </div>
+                <h1 class="service-card-text TextXL">
+                  <span>Excelent services</span>
+                </h1>
+                <span class="service-card-text1">
+                  <span>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </span>
+                </span>
+              </div>
+              <div class="home-container42">
+                <div class="home-container43">
+                  <svg viewBox="0 0 1024 1024" class="home-icon39">
+                    <path
+                      d="M832 192v-128h-640v128h-192v128c0 106.038 85.958 192 192 192 20.076 0 39.43-3.086 57.62-8.802 46.174 66.008 116.608 113.796 198.38 130.396v198.406h-64c-70.694 0-128 57.306-128 128h512c0-70.694-57.306-128-128-128h-64v-198.406c81.772-16.6 152.206-64.386 198.38-130.396 18.19 5.716 37.544 8.802 57.62 8.802 106.042 0 192-85.962 192-192v-128h-192zM192 436c-63.962 0-116-52.038-116-116v-64h116v64c0 40.186 7.43 78.632 20.954 114.068-6.802 1.246-13.798 1.932-20.954 1.932zM948 320c0 63.962-52.038 116-116 116-7.156 0-14.152-0.686-20.954-1.932 13.524-35.436 20.954-73.882 20.954-114.068v-64h116v64z"
+                    ></path>
+                  </svg>
+                </div>
+                <h1 class="home-text47 TextXL">Grow your market</h1>
+                <span class="home-text48">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </span>
+              </div>
+              <div class="home-container44">
+                <div class="home-container45">
+                  <svg viewBox="0 0 1024 1024" class="home-icon41">
+                    <path
+                      d="M726 726v-172h-86v172h86zM554 726v-428h-84v428h84zM384 726v-300h-86v300h86zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596z"
+                    ></path>
+                  </svg>
+                </div>
+                <h1 class="home-text49 TextXL">Launch time</h1>
+                <span class="home-text50">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </span>
+              </div>
+            </div>
+            <div class="home-contact">
+              <div class="label-container">
+                <h6 class="label-text"><span>MESSAGE US</span></h6>
+              </div>
+              <h2 class="home-text51">Type in the bellow form</h2>
+              <span class="home-text52 TextXL">
+                They say there's no future for the street rascals, nothing for
+                them, leave them to fall. But it isn't always how you would like
+                it to be, especially when you do nothing for yourself.
+              </span>
+              <div class="home-form">
+                <h1 class="home-text53">Want to work with us?</h1>
+                <span class="home-text54 TextXL">
+                  Complete this form and we will get back to you in 24 hours.
+                </span>
+                <span class="home-text55 TextXS">FULL NAME</span>
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  class="home-textinput TextSM input"
+                />
+                <span class="home-text56 TextXS">EMAIL</span>
+                <input
+                  type="text"
+                  placeholder="Email"
+                  class="home-textinput1 TextSM input"
+                />
+                <span class="home-text57 TextXS">MESSAGE</span>
+                <textarea
+                  cols="80"
+                  rows="4"
+                  disabled="true"
+                  placeholder="Type a message"
+                  class="home-textarea TextSM textarea"
+                ></textarea>
+                <div class="home-container46">
+                  <div
+                    class="secondary-button-container secondary-button-root-class-name"
+                  >
+                    <button class="secondary-button-button TextXS button">
+                      <span>Send message</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/gray-vector.svg"
+            class="home-image1"
+          />
+        </div>
+        <div class="footer-container">
+          <div class="footer-container01">
+            <div class="footer-container02">
+              <h1 class="footer-text TextXL">
+                <span>Let's keep in touch</span>
+              </h1>
+              <span class="footer-text02">
+                Find out on any of these platforms, we respond 1-2 business
+                days.
+              </span>
+              <div class="footer-container03">
+                <div class="footer-container04">
+                  <svg viewBox="0 0 950.8571428571428 1024" class="footer-icon">
+                    <path
+                      d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="footer-container05">
+                  <svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="footer-icon2"
+                  >
+                    <path
+                      d="M585.143 857.143c-5.714-33.143-27.429-147.429-80-284.571-0.571 0-1.714 0.571-2.286 0.571 0 0-222.286 77.714-294.286 234.286-3.429-2.857-8.571-6.286-8.571-6.286 65.143 53.143 148 85.714 238.857 85.714 52 0 101.143-10.857 146.286-29.714zM479.429 510.286c-9.143-21.143-19.429-42.286-30.286-63.429-193.143 57.714-378.286 53.143-384.571 53.143-0.571 4-0.571 8-0.571 12 0 96 36.571 184 96 250.286v0c102.286-182.286 304.571-247.429 304.571-247.429 5.143-1.714 10.286-2.857 14.857-4.571zM418.286 389.143c-65.143-115.429-134.286-209.143-139.429-216-104.571 49.143-182.286 145.714-206.857 261.714 9.714 0 166.286 1.714 346.286-45.714zM809.143 571.429c-8-2.286-112.571-35.429-233.714-16.571 49.143 135.429 69.143 245.714 73.143 268 84-56.571 143.429-146.857 160.571-251.429zM349.143 148c-0.571 0-0.571 0-1.143 0.571 0 0 0.571-0.571 1.143-0.571zM686.286 230.857c-65.714-58.286-152.571-93.714-247.429-93.714-30.286 0-60 4-88.571 10.857 5.714 7.429 76.571 100.571 140.571 218.286 141.143-52.571 194.286-133.714 195.429-135.429zM813.714 508c-1.143-88.571-32.571-170.286-85.143-234.286-1.143 1.143-61.143 88-209.143 148.571 8.571 17.714 17.143 36 25.143 54.286 2.857 6.286 5.143 13.143 8 19.429 129.143-16.571 256.571 11.429 261.143 12zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="footer-container06">
+                  <svg viewBox="0 0 1024 1024" class="footer-icon4">
+                    <path
+                      d="M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h416v-448h-128v-128h128v-64c0-105.8 86.2-192 192-192h128v128h-128c-35.2 0-64 28.8-64 64v64h192l-32 128h-160v448h288c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="footer-container07">
+                  <svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="footer-icon6"
+                  >
+                    <path
+                      d="M438.857 73.143c242.286 0 438.857 196.571 438.857 438.857 0 193.714-125.714 358.286-300 416.571-22.286 4-30.286-9.714-30.286-21.143 0-14.286 0.571-61.714 0.571-120.571 0-41.143-13.714-67.429-29.714-81.143 97.714-10.857 200.571-48 200.571-216.571 0-48-17.143-86.857-45.143-117.714 4.571-11.429 19.429-56-4.571-116.571-36.571-11.429-120.571 45.143-120.571 45.143-34.857-9.714-72.571-14.857-109.714-14.857s-74.857 5.143-109.714 14.857c0 0-84-56.571-120.571-45.143-24 60.571-9.143 105.143-4.571 116.571-28 30.857-45.143 69.714-45.143 117.714 0 168 102.286 205.714 200 216.571-12.571 11.429-24 30.857-28 58.857-25.143 11.429-89.143 30.857-127.429-36.571-24-41.714-67.429-45.143-67.429-45.143-42.857-0.571-2.857 26.857-2.857 26.857 28.571 13.143 48.571 64 48.571 64 25.714 78.286 148 52 148 52 0 36.571 0.571 70.857 0.571 81.714 0 11.429-8 25.143-30.286 21.143-174.286-58.286-300-222.857-300-416.571 0-242.286 196.571-438.857 438.857-438.857zM166.286 703.429c1.143-2.286-0.571-5.143-4-6.857-3.429-1.143-6.286-0.571-7.429 1.143-1.143 2.286 0.571 5.143 4 6.857 2.857 1.714 6.286 1.143 7.429-1.143zM184 722.857c2.286-1.714 1.714-5.714-1.143-9.143-2.857-2.857-6.857-4-9.143-1.714-2.286 1.714-1.714 5.714 1.143 9.143 2.857 2.857 6.857 4 9.143 1.714zM201.143 748.571c2.857-2.286 2.857-6.857 0-10.857-2.286-4-6.857-5.714-9.714-3.429-2.857 1.714-2.857 6.286 0 10.286s7.429 5.714 9.714 4zM225.143 772.571c2.286-2.286 1.143-7.429-2.286-10.857-4-4-9.143-4.571-11.429-1.714-2.857 2.286-1.714 7.429 2.286 10.857 4 4 9.143 4.571 11.429 1.714zM257.714 786.857c1.143-3.429-2.286-7.429-7.429-9.143-4.571-1.143-9.714 0.571-10.857 4s2.286 7.429 7.429 8.571c4.571 1.714 9.714 0 10.857-3.429zM293.714 789.714c0-4-4.571-6.857-9.714-6.286-5.143 0-9.143 2.857-9.143 6.286 0 4 4 6.857 9.714 6.286 5.143 0 9.143-2.857 9.143-6.286zM326.857 784c-0.571-3.429-5.143-5.714-10.286-5.143-5.143 1.143-8.571 4.571-8 8.571 0.571 3.429 5.143 5.714 10.286 4.571s8.571-4.571 8-8z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="footer-container08">
+              <div class="footer-container09">
+                <span class="footer-text03 TextXS">USEFUL LINK</span>
+                <span class="footer-text04 TextSM">About Us</span>
+                <span class="footer-text05 TextSM">Blog</span>
+                <span class="footer-text06 TextSM">Github</span>
+                <span class="footer-text07 TextSM">Free Products</span>
+              </div>
+              <div class="footer-container10">
+                <span class="footer-text08 TextXS">OTHER RESOURCES</span>
+                <span class="footer-text09 TextSM">License</span>
+                <span class="footer-text10 TextSM">Terms &amp; Conditions</span>
+                <span class="footer-text11 TextSM">Privacy Policy</span>
+                <span class="footer-text12 TextSM">Contact Us</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-container11"></div>
+          <span class="footer-text13 TextSM">
+            Copyright © 2021 Notus PRO React by Creative Tim.
+          </span>
         </div>
       </div>
     </div>
-    <script
-      data-section-id="navbar"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
