@@ -2338,6 +2338,9 @@
     align-items: center;
     flex-direction: column;
   }
+  .home-pasted-image {
+    width: 100%;
+  }
   .home-container47 {
     align-items: flex-start;
   }
