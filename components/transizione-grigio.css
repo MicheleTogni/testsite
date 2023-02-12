@@ -7,17 +7,3 @@
   position: relative;
   object-fit: cover;
 }
-.transizione-grigio-root-class-name1 {
-  left: 0px;
-  bottom: -1px;
-  display: none;
-  position: absolute;
-}
-@media(max-width: 1600px) {
-  .transizione-grigio-root-class-name1 {
-    flex: end;
-    left: 0px;
-    bottom: -1px;
-    position: absolute;
-  }
-}
