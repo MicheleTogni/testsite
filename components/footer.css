@@ -181,6 +181,9 @@
   color: var(--dl-color-secondary-500);
   align-self: center;
 }
+.footer-root-class-name {
+  display: none;
+}
 @media(max-width: 991px) {
   .footer-container01 {
     align-items: center;
