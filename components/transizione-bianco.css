@@ -7,10 +7,3 @@
   position: relative;
   object-fit: cover;
 }
-.transizione-bianco-root-class-name {
-  top: auto;
-  left: auto;
-  right: 0px;
-  bottom: -1px;
-  position: absolute;
-}
