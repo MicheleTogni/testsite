@@ -7,32 +7,14 @@
   position: relative;
   object-fit: cover;
 }
-.transizione-grigio-root-class-name {
-  top: auto;
-  left: auto;
-  right: 0px;
-  bottom: -1px;
-  position: absolute;
-}
 .transizione-grigio-root-class-name1 {
   left: 0px;
   bottom: -1px;
   display: none;
   position: absolute;
 }
-.transizione-grigio-root-class-name2 {
-  left: 0px;
-  bottom: -1px;
-  position: absolute;
-}
 @media(max-width: 1600px) {
   .transizione-grigio-root-class-name1 {
-    flex: end;
-    left: 0px;
-    bottom: -1px;
-    position: absolute;
-  }
-  .transizione-grigio-root-class-name2 {
     flex: end;
     left: 0px;
     bottom: -1px;
